@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     var VETEMENT = ["KIABI","LACOSTE"]
     var FRUIT = ["COURGETTE","CAROTTE"]
     var VOITURE  = ["TOYOTA","FIAT"]
+    var ALEA = ["TOYOTA","FIAT","CHAT","CHIEN","TOKYO","PARIS"]
+    
     
     
     //VARIABLE
@@ -25,9 +27,11 @@ class ViewController: UIViewController {
     var error = 0
     var victoire = false;
     var WordFound = ""
-    var phrases : NSArray!
+    var Theme = 0
+    var T = [String]()
     
     var tab = [String]()
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,20 +43,22 @@ class ViewController: UIViewController {
     
     
     func initGame(){
+       
+        
+        setTheme(theme: Theme)
         var tiret = ""
-        word = getRandomPhrase(theme: PAY)
+        word = getRandomPhrase(theme: T)
         letter_found = 0
         win = false
         error = 0
         victoire = false
         imagePendu.image = UIImage(named: "first" )
         for i in 1...word.count{
-            tiret += "_" + " "
+            tiret += " _ " + " "
             container.text = tiret
             tab.append(" _ ") }
         
-        let path = Bundle.main.path(forResource:"wordData", ofType: "plist")
-        phrases = NSArray.init(contentsOfFile: path!)
+        
     }
     
    
@@ -85,8 +91,11 @@ class ViewController: UIViewController {
     @IBAction func pushButton(_ sender: UIButton) {
         let lettre_tapper = sender.currentTitle!
         winOrNot(letter: lettre_tapper)
-        containerAffiche(lettre: lettre_tapper)}
-      
+        containerAffiche(lettre: lettre_tapper)
+        sender.isEnabled = false
+       
+    }
+    
     func isIn(letter: String) -> Bool
            {
             
@@ -152,6 +161,42 @@ class ViewController: UIViewController {
                 
           default:
                 print("je ne fais rien ")}}
+    
+    
+    
+    func setTheme(theme : Int )
+    {
+        switch theme  {
+            
+        case 0 :
+            T = PAY
+            break
+        case 1 :
+            T = VILLE
+            break
+            
+        case 2 :
+            T = ANIMAUX
+            break
+            
+        case 3 :
+            T = VETEMENT
+            break
+            
+        case 4 :
+            T = VOITURE
+            break
+        
+        case 5 :
+            T = FRUIT
+            break
+            
+        case 6 :
+            T = ALEA
+            break
+            
+      default:
+          T = ALEA   }}
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
