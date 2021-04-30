@@ -551,8 +551,8 @@
                                                         <constraint firstAttribute="height" constant="78" id="uFL-3G-gGO"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEB-mm-vTb">
-                                                    <rect key="frame" x="174" y="19" width="41.5" height="37"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEB-mm-vTb">
+                                                    <rect key="frame" x="174" y="31" width="41.5" height="37"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -561,8 +561,10 @@
                                             <constraints>
                                                 <constraint firstItem="k6q-n5-YvG" firstAttribute="leading" secondItem="zTs-62-PQS" secondAttribute="leading" constant="20" id="bTw-Lo-VcD"/>
                                                 <constraint firstItem="k6q-n5-YvG" firstAttribute="top" secondItem="zTs-62-PQS" secondAttribute="top" constant="11" id="brG-dI-Xp9"/>
+                                                <constraint firstItem="GEB-mm-vTb" firstAttribute="top" secondItem="zTs-62-PQS" secondAttribute="topMargin" constant="20" id="fcF-4S-5Tb"/>
                                                 <constraint firstItem="GEB-mm-vTb" firstAttribute="leading" secondItem="k6q-n5-YvG" secondAttribute="trailing" constant="44" id="u62-3M-n1l"/>
                                                 <constraint firstAttribute="bottom" secondItem="k6q-n5-YvG" secondAttribute="bottom" constant="11" id="yon-wM-ahf"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="GEB-mm-vTb" secondAttribute="bottom" constant="21" id="zJa-ub-KuC"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -694,8 +696,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fi7-Hf-H3I"/>
-        <segue reference="1hb-XL-8HE"/>
+        <segue reference="Y6P-pg-AAO"/>
+        <segue reference="Q4r-VY-3rt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="defaite" width="300" height="314"/>

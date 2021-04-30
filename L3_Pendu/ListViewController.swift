@@ -10,7 +10,7 @@ import UIKit
 
 class ListViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
     var tab = ["PAYS","VILLE","ANIMAUX", "VETEMENT","VOITURE","FRUIT","ALEATOIRE"]
-    var tab2 = ["pays","ville","animaux", "vetement","voiture","fruit","pays"]
+    var tab2 = ["pays","ville","animaux", "vetement","voiture","fruit","aleatoire"]
     var index = 0
     @IBOutlet weak var matabview: UITableView!
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
