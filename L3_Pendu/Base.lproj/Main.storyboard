@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mad-1p-yGo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mad-1p-yGo">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esG-gS-T3p">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esG-gS-T3p">
                                 <rect key="frame" x="37" y="577" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -29,7 +27,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zwk-M7-wLy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GZ-K7-zzq">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GZ-K7-zzq">
                                 <rect key="frame" x="87" y="577" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -40,7 +38,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dsl-TK-Eza"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2k-Kp-UXt">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2k-Kp-UXt">
                                 <rect key="frame" x="137" y="577" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -51,7 +49,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="chD-Uu-vzY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rK-AE-7gl">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rK-AE-7gl">
                                 <rect key="frame" x="187" y="577" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -62,7 +60,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F7m-a4-b9J"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9x-4k-Dkn">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9x-4k-Dkn">
                                 <rect key="frame" x="237" y="577" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -73,7 +71,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="39L-5Q-zNB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJa-Cr-Fht">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJa-Cr-Fht">
                                 <rect key="frame" x="287" y="577" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -84,7 +82,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z62-yH-rWH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qux-Gz-oMm">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qux-Gz-oMm">
                                 <rect key="frame" x="337" y="577" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -95,7 +93,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aqH-iy-GmM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRx-Cm-waV">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRx-Cm-waV">
                                 <rect key="frame" x="37" y="625" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -106,7 +104,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="utN-RG-32j"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUK-Sz-UIn">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUK-Sz-UIn">
                                 <rect key="frame" x="87" y="625" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -117,7 +115,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zFR-2l-xwe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8z3-mx-PKG">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8z3-mx-PKG">
                                 <rect key="frame" x="137" y="625" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -128,7 +126,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9qA-h1-BaP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUH-WY-f7Z">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUH-WY-f7Z">
                                 <rect key="frame" x="187" y="625" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -139,7 +137,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hHM-f7-Mbh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKX-WI-01t">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKX-WI-01t">
                                 <rect key="frame" x="237" y="625" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -150,7 +148,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RMa-ek-Sqc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFd-Cy-jNG">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFd-Cy-jNG">
                                 <rect key="frame" x="287" y="625" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -161,7 +159,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ul3-xY-1Q2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSl-VH-40k">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSl-VH-40k">
                                 <rect key="frame" x="37" y="674" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -172,7 +170,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n5o-1H-jSd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7m-Wn-Zkm">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7m-Wn-Zkm">
                                 <rect key="frame" x="87" y="674" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -183,7 +181,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5TN-db-VkK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEy-NI-Yzt">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEy-NI-Yzt">
                                 <rect key="frame" x="137" y="674" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -194,7 +192,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h5y-zr-Vkv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Kr-af-VID">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Kr-af-VID">
                                 <rect key="frame" x="187" y="674" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -205,7 +203,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xxB-uc-YOi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqS-c7-Vbs">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqS-c7-Vbs">
                                 <rect key="frame" x="237" y="674" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -216,7 +214,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IFC-xS-MXe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUa-We-I8X">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUa-We-I8X">
                                 <rect key="frame" x="287" y="674" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -227,7 +225,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wld-T1-mgk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHi-fH-tbV">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHi-fH-tbV">
                                 <rect key="frame" x="337" y="674" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -238,7 +236,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cal-4P-73D"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCz-LL-I1I">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCz-LL-I1I">
                                 <rect key="frame" x="37" y="723" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -249,7 +247,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KuK-M3-X5j"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYb-y7-00W">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYb-y7-00W">
                                 <rect key="frame" x="87" y="723" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -260,7 +258,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LML-hC-6t4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9s-fi-u2n">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9s-fi-u2n">
                                 <rect key="frame" x="137" y="724" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -271,7 +269,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kkt-i3-XRm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Tg-gz-btd">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Tg-gz-btd">
                                 <rect key="frame" x="187" y="724" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -282,7 +280,7 @@
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bDK-DP-vel"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKV-jE-vAQ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKV-jE-vAQ">
                                 <rect key="frame" x="237" y="724" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="couleur_clavier"/>
@@ -315,7 +313,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="first" translatesAutoresizingMaskIntoConstraints="NO" id="1Pk-6D-guc">
                                 <rect key="frame" x="20" y="131" width="167" height="233"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vX8-Gg-8Rt">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vX8-Gg-8Rt">
                                 <rect key="frame" x="337" y="625" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -327,7 +325,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="color_fond"/>
                         <constraints>
                             <constraint firstItem="m7a-Nt-znS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ej7-NX-40N"/>
@@ -336,6 +333,7 @@
                             <constraint firstItem="1Pk-6D-guc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="wcg-9r-W24"/>
                             <constraint firstItem="m7a-Nt-znS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="x41-v1-YhN"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="pPB-fE-Roq"/>
                     <connections>
@@ -369,7 +367,7 @@
                                         <rect key="frame" x="8" y="96" width="358" height="401"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aft-98-EZM">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aft-98-EZM">
                                         <rect key="frame" x="208" y="582" width="158" height="63"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="MENU"/>
@@ -377,23 +375,26 @@
                                             <segue destination="Mad-1p-yGo" kind="presentation" id="HPd-QM-Xk1"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwj-Uy-bMt">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwj-Uy-bMt">
                                         <rect key="frame" x="0.0" y="582" width="147" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="REJOUER"/>
                                         <connections>
                                             <action selector="Rejouer:" destination="3OG-1n-3dY" eventType="touchUpInside" id="WQl-Zp-9mL"/>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="4bd-nX-32t"/>
+                                            <action selector="rejouer:" destination="3gG-nd-YR2" eventType="touchUpInside" id="EIR-gl-hSa"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Cio-WP-89R"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Kzz-sv-JQW"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="resultat" id="5n2-2l-7WY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gol-BF-kd1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="3OG-1n-3dY" userLabel="Exit" sceneMemberID="exit"/>
@@ -408,7 +409,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2S-eK-JJm">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2S-eK-JJm">
                                 <rect key="frame" x="32" y="735" width="350" height="80"/>
                                 <color key="backgroundColor" name="color_fond"/>
                                 <constraints>
@@ -428,7 +429,7 @@
                                     <segue destination="Ye0-RM-aHq" kind="show" id="0Zp-B4-1l6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdQ-sI-Lo5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdQ-sI-Lo5">
                                 <rect key="frame" x="32" y="637" width="350" height="80"/>
                                 <color key="backgroundColor" name="color_fond"/>
                                 <constraints>
@@ -472,7 +473,6 @@
                                 </variation>
                             </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="pKh-sA-w43"/>
                         <color key="backgroundColor" name="couleur_clavier"/>
                         <constraints>
                             <constraint firstItem="sdQ-sI-Lo5" firstAttribute="leading" secondItem="pKh-sA-w43" secondAttribute="leading" constant="32" id="1Rm-zM-bEb"/>
@@ -489,6 +489,7 @@
                             <constraint firstItem="sdQ-sI-Lo5" firstAttribute="top" secondItem="5Cn-n3-YqM" secondAttribute="bottom" constant="105" id="v5k-51-Nmk"/>
                             <constraint firstItem="pKh-sA-w43" firstAttribute="trailing" secondItem="5Cn-n3-YqM" secondAttribute="trailing" constant="164" id="zeI-An-egh"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="pKh-sA-w43"/>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="zeI-An-egh"/>
@@ -534,11 +535,11 @@
                             <tableView clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="e03-eZ-EC7">
                                 <rect key="frame" x="20" y="44" width="374" height="818"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="sectionIndexBackgroundColor" name="couleur_clavier"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MaCell" rowHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="MoF-QW-hAl" customClass="MaCell" customModule="L3_Pendu" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="374" height="100"/>
+                                        <rect key="frame" x="0.0" y="28" width="374" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MoF-QW-hAl" id="zTs-62-PQS">
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
@@ -552,7 +553,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEB-mm-vTb">
-                                                    <rect key="frame" x="174" y="31" width="41.5" height="37"/>
+                                                    <rect key="frame" x="174" y="31" width="42" height="37"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -579,8 +580,8 @@
                                 </connections>
                             </tableView>
                         </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="1tb-Kc-Uum"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="zhq-30-UbA"/>
                     <connections>
@@ -619,7 +620,7 @@
                                             <constraint firstAttribute="height" constant="401" id="rTX-UL-UPd"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgb-f2-Knb">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgb-f2-Knb">
                                         <rect key="frame" x="0.0" y="582" width="147" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="5if-FW-mom"/>
@@ -629,10 +630,10 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="1hb-XL-8HE"/>
+                                            <action selector="rejouer:" destination="k4F-nO-P7t" eventType="touchUpInside" id="2Cz-fP-9FQ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7a-QU-4X9">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7a-QU-4X9">
                                         <rect key="frame" x="227" y="582" width="147" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="147" id="2pE-XP-0i8"/>
@@ -656,7 +657,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstItem="lgk-uw-zBl" firstAttribute="leading" secondItem="08U-0d-V9t" secondAttribute="leading" constant="8" id="7El-li-vQD"/>
                                     <constraint firstItem="ngw-SV-S2I" firstAttribute="top" secondItem="lgk-uw-zBl" secondAttribute="bottom" constant="8" id="Esz-os-b6d"/>
@@ -677,35 +678,32 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="01b-V5-ysk"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="08U-0d-V9t" firstAttribute="top" secondItem="01b-V5-ysk" secondAttribute="top" constant="82" id="LJi-Gq-DVV"/>
                             <constraint firstItem="01b-V5-ysk" firstAttribute="trailing" secondItem="08U-0d-V9t" secondAttribute="trailing" constant="20" id="hgY-rQ-Beo"/>
                             <constraint firstItem="08U-0d-V9t" firstAttribute="leading" secondItem="01b-V5-ysk" secondAttribute="leading" constant="20" id="zL8-dS-ZeA"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="01b-V5-ysk"/>
                     </view>
                     <navigationItem key="navigationItem" id="Uu2-9N-aYb"/>
                     <connections>
                         <outlet property="AfficheMot" destination="ngw-SV-S2I" id="HXW-nh-NaH"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="resultat" id="InU-np-Cm1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKw-be-obG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="814" y="-1761"/>
+            <point key="canvasLocation" x="813.04347826086962" y="-1761.1607142857142"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="Y6P-pg-AAO"/>
-        <segue reference="Q4r-VY-3rt"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="defaite" width="300" height="314"/>
         <image name="first" width="170" height="214"/>
         <image name="gagner" width="699" height="112"/>
         <image name="logo" width="149" height="107"/>
         <image name="perdu" width="701" height="112"/>
-        <image name="return" catalog="system" width="128" height="101"/>
+        <image name="return" catalog="system" width="64" height="50"/>
         <image name="tropher" width="500" height="500"/>
         <namedColor name="color_fond">
             <color red="0.99599999189376831" green="0.36899998784065247" blue="0.25499999523162842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -713,8 +711,9 @@
         <namedColor name="couleur_clavier">
             <color red="0.41200000047683716" green="0.3449999988079071" blue="0.37299999594688416" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="HPd-QM-Xk1"/>
+        <segue reference="5n2-2l-7WY"/>
+    </inferredMetricsTieBreakers>
 </document>

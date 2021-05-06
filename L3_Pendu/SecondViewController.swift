@@ -9,6 +9,7 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+var theme = 0
  var bool = false
   var affiche = ""
    // @IBOutlet weak var AfficheMot: UILabel!
@@ -23,8 +24,20 @@ class SecondViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+    if segue.identifier == "resultat"{
+        let VCDestination = segue.destination as! ViewController
+            VCDestination.Theme = theme
+        print("je suis dans seconde View")
+    }
+    }
     
 
+    @IBAction func rejouer(_ sender: UIButton) {
+         performSegue(withIdentifier: "resultat", sender: nil)
+        print("Le bouton est tapper ")
+    }
     
 
 }

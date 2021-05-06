@@ -203,11 +203,13 @@ class ViewController: UIViewController {    //test
         if segue.identifier == "victoire"{
             let VCDestination = segue.destination as! SecondViewController
                 VCDestination.bool = false
+                VCDestination.theme = Theme
         }
         else if segue.identifier == "defaite"{
             let VCDestination1 = segue.destination as! SecondViewController
             VCDestination1.affiche = word
             VCDestination1.bool = true
+            VCDestination1.theme = Theme
         }}
     
     
