@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController {    //test
     //TABLEAU
     var PAY = ["CHINE","RUSSIE"]
     var VILLE = ["TOKYO","PARIS"]
