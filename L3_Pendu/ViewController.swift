@@ -29,17 +29,24 @@ class ViewController: UIViewController {    //test
     var WordFound = ""
     var Theme = 0
     var T = [String]()
-    
+    var phrases : NSArray!
     var tab = [String]()
+    var letterUse = [String]()
+    var index = 0
+    
+    
    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         initGame()
+  //      let path = Bundle.main.path(forResource:"ALEA", ofType: "plist")
+   //     phrases = NSArray.init(contentsOfFile: path!)
     }
 
     @IBOutlet weak var imagePendu: UIImageView!
+    
     
     
     func initGame(){
@@ -93,6 +100,8 @@ class ViewController: UIViewController {    //test
         winOrNot(letter: lettre_tapper)
         containerAffiche(lettre: lettre_tapper)
         sender.isEnabled = false
+        
+        
        
     }
     
@@ -103,6 +112,7 @@ class ViewController: UIViewController {    //test
             for c in word
                {    if c  == Character(letter)
                         {    letter_found += 1
+                            letterUse.append(letter)
                              victoire = true}
             
             }
@@ -124,7 +134,7 @@ class ViewController: UIViewController {    //test
             if error == 7
              {
                 win = false
-                performSegue(withIdentifier: "defaite", sender: nil)}}
+                performSegue(withIdentifier: "victoire", sender: nil)}}
     
     /****************************************************************************************MARCHE************************************************************************/
     
@@ -202,25 +212,32 @@ class ViewController: UIViewController {    //test
         
         if segue.identifier == "victoire"{
             let VCDestination = segue.destination as! SecondViewController
-                VCDestination.bool = false
+                VCDestination.bool = win
                 VCDestination.theme = Theme
+                VCDestination.affiche = word
         }
-        else if segue.identifier == "defaite"{
-            let VCDestination1 = segue.destination as! SecondViewController
-            VCDestination1.affiche = word
-            VCDestination1.bool = true
-            VCDestination1.theme = Theme
-        }}
+        else if segue.identifier == "popUp"{
+            
+                let VCDestination = segue.destination as! PopUPViewController
+                    VCDestination.tab = letterUse
+                    VCDestination.alea = index
+                    VCDestination.word = word
+                    VCDestination.theme = Theme
+            }}
     
     
+    
+   
     @IBAction func aide(_ sender: UIButton) {
-       
+        performSegue(withIdentifier: "popUp", sender: nil)
+        
     }
+    /***********************************Lecture des fichier texte  **************************************************/
     func getRandomPhrase(theme :[String] ) -> String!
     {
-        let index = Int(arc4random_uniform(UInt32(theme.count)))
+        index = Int(arc4random_uniform(UInt32(theme.count)))
         return theme[index]
-     //   return phrases.object(at: index) as! String
+       // return phrases.object(at: 2) as! String
         
     }
     

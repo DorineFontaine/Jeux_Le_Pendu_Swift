@@ -14,12 +14,24 @@ var theme = 0
   var affiche = ""
    // @IBOutlet weak var AfficheMot: UILabel!
     
-    @IBOutlet weak var AfficheMot: UILabel!
+    @IBOutlet weak var illustration: UIImageView!
+    @IBOutlet weak var bande: UIImageView!
+   
+    
+    
+    @IBOutlet weak var affichebis: UILabel!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if bool{
-            AfficheMot.text = "Le mot à trouver était" + "" + affiche
+        if !bool{
+           affichebis.text = "Le mot à trouver était" + "" + affiche
+            bande.image = UIImage(named: "perdu" )
+            illustration.image = UIImage(named: "defaite" )
+            
         }
 
         // Do any additional setup after loading the view.
